@@ -28,4 +28,4 @@ END
 
 STYLE_TYPE="--style=file:"\""$EXEC_DIR/.clang-format"\"
 
-echo "clang-format $STYLE_TYPE -i $FILE_LIST"
+eval "clang-format $STYLE_TYPE -i $FILE_LIST"
