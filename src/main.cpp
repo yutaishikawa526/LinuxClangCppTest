@@ -1,11 +1,10 @@
-#include<iostream>
+#include <iostream>
 
-#include "header/morning.hpp"
 #include "header/afternoon.hpp"
 #include "header/evening.hpp"
+#include "header/morning.hpp"
 
-int main(){
-
+int main() {
     Morning();
     Afternoon();
     Evening();

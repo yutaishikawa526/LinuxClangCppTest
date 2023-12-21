@@ -3,4 +3,4 @@
 
 void Morning();
 
-#endif	// _H_MORNING_
+#endif  // _H_MORNING_

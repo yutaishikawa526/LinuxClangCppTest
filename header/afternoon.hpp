@@ -3,4 +3,4 @@
 
 void Afternoon();
 
-#endif	// _H_AFTERNOON_
+#endif  // _H_AFTERNOON_
