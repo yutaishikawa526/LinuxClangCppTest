@@ -4,16 +4,12 @@
 #include "header/evening.hpp"
 #include "header/morning.hpp"
 
-namespace Greeting {
-
 int main()
 
 {
-    Morning();
-    Afternoon();
-    Evening();
+    Greeting::Morning();
+    Greeting::Afternoon();
+    Greeting::Evening();
 
     return 0;
 }
-
-}  // namespace Greeting
