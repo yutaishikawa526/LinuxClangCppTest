@@ -2,8 +2,6 @@
 
 # フォーマット処理
 
-## 未実装
-
 ## clang-formatコマンドが存在するか
 if [ ! -e "`which clang-format`" ]; then
     echo "clang-formatコマンドが存在しません"
@@ -28,4 +26,5 @@ END
 
 STYLE_TYPE="--style=file:"\""$EXEC_DIR/.clang-format"\"
 
+## フォーマット
 eval "clang-format $STYLE_TYPE -i $FILE_LIST"
